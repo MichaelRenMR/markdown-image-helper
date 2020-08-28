@@ -21,7 +21,7 @@ module.exports = MarkdownImgHelper =
 
 				e.stopImmediatePropagation()
 
-				imgbuffer = img.toPng()
+				imgbuffer = img.toPNG()
 
 				thefile = new File(editor.getPath())
 				assetsDirPath = thefile.getParent().getPath()+"/assets"
@@ -61,7 +61,11 @@ module.exports = MarkdownImgHelper =
 			callback()
 
 	insertUrl: (url,editor) ->
-		editor.insertText(url)
+		text = "\n"
+		words = editor.lineTextForBufferRow(editor.getCursorBufferPosition().row)
+		editor.deleteLine()
+		text += '![' + words + '](' + url + ')'
+		editor.insertText(text)
 
 
 	deactivate: ->

@@ -1,5 +1,8 @@
 # Markdown Image Helper
 
+## Modifications 
+Slightly modified code to enable functionality identical to that of markdown-image-paste plugin (also for Atom) but wasn't working for me. 
+
 **Warning: I choose Emacs to write markdown , so this plugin is not maintain anymore**
 
 An Atom plugin for Markdown grammar. Create image file relative to the markdown file and insert a relative url to that file.
