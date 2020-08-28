@@ -1,8 +1,8 @@
 # Markdown Image Helper
 
-## Modifications 
-Slightly modified code to enable functionality identical to that of markdown-image-paste plugin (also for Atom) but wasn't working for me. 
-
+## Modifications
+Slightly modified code to enable functionality identical to that of markdown-image-paste plugin (also for Atom) but wasn't working for me.
+##
 **Warning: I choose Emacs to write markdown , so this plugin is not maintain anymore**
 
 An Atom plugin for Markdown grammar. Create image file relative to the markdown file and insert a relative url to that file.
@@ -16,13 +16,9 @@ Inspired by [markdown-assistant](https://github.com/knightli/markdown-assistant)
 
 ## Example
 * Before
-
-    ![before](https://github.com/bigyuki/markdown-image-helper/raw/master/assets/README-31bb2.png)
-
+![before](assets/README-f47d6.png)
 * After
-
-    ![after](https://github.com/bigyuki/markdown-image-helper/raw/master/assets/README-d1eba.png)
-
+![after](assets/README-c9bdb.png)
 # Q&A
 - Does this plugin support on Windows system ?
 

@@ -64,7 +64,7 @@ module.exports = MarkdownImgHelper =
 		text = "\n"
 		words = editor.lineTextForBufferRow(editor.getCursorBufferPosition().row)
 		editor.deleteLine()
-		text += '![' + words + '](' + url + ')'
+		text += '![' + words.trim() + '](' + url + ')'
 		editor.insertText(text)
 
 
